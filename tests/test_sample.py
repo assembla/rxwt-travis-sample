@@ -10,6 +10,7 @@ class TestSample(BaseTest):
 
         main_po = MainPo(driver)
         main_po.open("https://www.ranorex.com")
+        print("test")
 
         self.assertTrue(main_po.get__test_automation_for_all_text(),
                         "Test Automation for All")
